@@ -1,5 +1,4 @@
 ﻿using Sitecore.XA.Foundation.DynamicPlaceholders.Repositories;
-using System;
 using System.Text.RegularExpressions;
 
 namespace CustomDynamicPlaceholder.Repositories
@@ -20,6 +19,5 @@ namespace CustomDynamicPlaceholder.Repositories
                 return path + last;
             return base.Resolve(key);
         }
-           
     }
 }
